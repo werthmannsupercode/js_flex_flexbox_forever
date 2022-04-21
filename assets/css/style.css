@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,400&display=swap');
+
+/* font-family: 'Lato', sans-serif; */
+
+/* Die background-color ist #D9E8E5, der graue Text ist rgba(0,0,0,.8)
+Nutze margin: auto um die letzten beiden Menüpunkte an den rechten Rand zu positionieren
+Nutze flex-wrap: wrap für die Bildergalerie. */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER STYLES */
+
+header {
+    display: flex;
+    font-family: 'Lato', sans-serif;
+    height: 76px;
+    background-color: white;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+}
+
+header>img {
+    height: 25px;
+    width: auto;
+}
+
+header div a {
+    font-size: 30px;
+}
+
+header div a:hover {
+    text-decoration: underline;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+header ul li {
+    margin: 0 2vw;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, .8);
+}
+
+header ul li a:hover {
+    text-decoration: underline;
+}
+
+/* MAIN STYLES */
+
+main {
+    background-color: #D9E8E5;
+    padding: 20vh 12.5vw;
+}
+
+main h1 {
+    font-family: 'Lato', sans-serif;
+    padding-bottom: 2vh;
+}
+
+main div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+main div figure {
+    margin-bottom: 2vh;
+    text-align: right;
+    font-family: 'Lato', sans-serif;
+}
+
+main div figcaption {
+    margin-top: -25px;
+    margin-right: 10px;
+}
